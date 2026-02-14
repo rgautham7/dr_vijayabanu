@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+      },
+      fontFamily: {
+        sacramento: ['var(--font-sacramento)'],
+        'ibm-plex': ['var(--font-ibm-plex)'],
+        judson: ['var(--font-judson)'],
       },
     },
   },
