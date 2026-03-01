@@ -47,17 +47,17 @@ export default function Services() {
   const services = [
     {
       title: 'Relationship Counselling',
-      description: 'Offering counselling to couples to understand each other with trust & love and to live a good relationship',
+      description: 'Offering counselling to couples to understand each other with trust & love.',
       imageUrl: '/images/relationship-counselling.jpg',
     },
     {
       title: 'Life coaching',
-      description: 'Guiding youngsters to unlock their potential and achieve personal and professional goals, empowering their problem solving & decision making skills',
+      description: 'Guiding youngsters to unlock their potential and achieve personal by empowering their problem solving skills',
       imageUrl: '/images/life-coaching.avif',
     },
     {
       title: 'Wellness coaching',
-      description: 'Supporting individuals in achieving holistic well-being through personalized coaching strategies, preaching mind body connection',
+      description: 'Supporting individuals in achieving holistic well-being through personalized coaching strategies.',
       imageUrl: '/images/wellness-coaching.png',
     },
   ];
