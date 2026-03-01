@@ -17,7 +17,7 @@ export default function Navbar() {
           href="/" 
           className="font-sacramento text-4xl text-[#3C1908] hover:text-[#C85925] transition-colors"
         >
-          Vijayabanu
+          Vijayabanu. U
         </Link>
 
         <div className="flex items-center space-x-12">

@@ -46,19 +46,19 @@ function ServiceCard({ title, description, imageUrl }: ServiceCardProps) {
 export default function Services() {
   const services = [
     {
-      title: 'Theraphy',
-      description: 'The service that you offer through theraphy',
-      imageUrl: '/images/therapy.png',
+      title: 'Relationship Counselling',
+      description: 'Offering counselling to couples to understand each other with trust & love and to live a good relationship',
+      imageUrl: '/images/relationship-counselling.jpg',
     },
     {
-      title: 'Theraphy',
-      description: 'The service that you offer through theraphy',
-      imageUrl: '/images/therapy.png',
+      title: 'Life coaching',
+      description: 'Guiding youngsters to unlock their potential and achieve personal and professional goals, empowering their problem solving & decision making skills',
+      imageUrl: '/images/life-coaching.avif',
     },
     {
-      title: 'Theraphy',
-      description: 'The service that you offer through theraphy',
-      imageUrl: '/images/therapy.png',
+      title: 'Wellness coaching',
+      description: 'Supporting individuals in achieving holistic well-being through personalized coaching strategies, preaching mind body connection',
+      imageUrl: '/images/wellness-coaching.png',
     },
   ];
 

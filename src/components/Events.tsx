@@ -4,31 +4,31 @@ export default function Events() {
   const events = [
     {
       id: 1,
-      imageUrl: '/images/event1.jpg',
+      imageUrl: '/images/img-event1.jpg',
       isLeft: true,
-      title: 'Birthday Event',
-      description: 'A magical celebration filled with joy and laughter, creating unforgettable memories for everyone involved.'
+      title: 'Nurturing Young Minds in a Digital Age',
+      description: 'Served as Chief Guest at Little Buds graduation, celebrating young learners’ confidence and joy. Shared insights on healthy screen habits, guiding parents toward balanced, holistic child development.'
     },
     {
       id: 2,
-      imageUrl: '/images/event2.jpg',
+      imageUrl: '/images/img-event2.jpg',
       isLeft: false,
-      title: 'Community Gathering',
-      description: 'Bringing people together to share experiences and build stronger connections within our community.'
+      title: 'Awareness on Emotional Resilience - Lion\'s Club',
+      description: 'Addressed Lion\'s Club members on emotional resilience, emphasizing awareness, clarity, and balanced strength. Encouraged simple daily self-care habits to sustain long-term mental wellbeing.'
     },
     {
       id: 3,
-      imageUrl: '/images/event3.jpg',
+      imageUrl: '/images/img-event3.jpg',
       isLeft: true,
-      title: 'Workshop Session',
-      description: 'Interactive learning experiences that empower and inspire positive change in people\'s lives.'
+      title: 'National Seminar on Occupational Stress Management',
+      description: 'Spoke on navigating dual identity for women leaders, addressing stereotypes, stigma, and assertive communication. Emphasized practical actions for sustainable work-life balance and stress management.'
     },
     {
       id: 4,
-      imageUrl: '/images/event4.jpg',
+      imageUrl: '/images/img-event4.jpg',
       isLeft: false,
-      title: 'Special Celebration',
-      description: 'Creating memorable moments that bring smiles and happiness to everyone present.'
+      title: 'Mental Well-Being in Healthcare Leadership',
+      description: 'Spoke at the Medicall Seminar on mental well-being for medical professionals and hospital administrators. Highlighted resilience, emotional health, and sustainable leadership in demanding healthcare environments.'
     },
   ];
 

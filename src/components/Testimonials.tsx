@@ -18,20 +18,20 @@ export default function Testimonials() {
       quote: 'Curabitur id massa sed tellus efficitur dignissim. Integer quam augue, rhoncus eget iaculis vel, condimentum id ipsum. Duis nec bibendum leo.',
       isLeft: false,
     },
-    {
-      id: 3,
-      imageUrl: '/images/testimonial3.png',
-      name: 'Third Author',
-      role: 'Writer & Educator',
-      quote: 'Nulla ultricies elementum libero, pharetra blandit erat iaculis ut. Etiam eu sodales turpis. Etiam suscipit elit id nibh facilisis.',
-      isLeft: true,
-    },
+    // {
+    //   id: 3,
+    //   imageUrl: '/images/testimonial3.png',
+    //   name: 'Third Author',
+    //   role: 'Writer & Educator',
+    //   quote: 'Nulla ultricies elementum libero, pharetra blandit erat iaculis ut. Etiam eu sodales turpis. Etiam suscipit elit id nibh facilisis.',
+    //   isLeft: true,
+    // },
   ];
 
   return (
-    <section id="testimonial" className="min-h-[200vh] bg-[#FBC8AB] py-24">
+    <section id="testimonial" className="min-h-[160vh] bg-[#FBC8AB] py-20">
       <div className="container mx-auto px-4 pb-12">
-        <div className="text-center mb-32">
+        <div className="text-center mb-24">
           <h2 className="font-judson text-5xl text-[#3C1908] mb-4">
             TESTIMONIALS
           </h2>
@@ -49,10 +49,9 @@ export default function Testimonials() {
                 ${(() => {
                   const positions = {
                     0: 'top-0 left-[360px]',
-                    1: 'top-[45vh] left-[440px] -translate-x-1/2',
-                    2: 'top-[90vh] left-[440px]',
+                    1: 'top-[45vh] left-[440px] -translate-x-1/2'
                   };
-                  return positions[index as 0 | 1 | 2];
+                  return positions[index as 0 | 1];
                 })()}
               `}
             >

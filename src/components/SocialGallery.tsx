@@ -7,19 +7,19 @@ export default function SocialGallery() {
   const marqueeRef = useRef<HTMLDivElement>(null);
 
   const socialImages = [
-    '/images/event1.jpg',
-    '/images/event2.jpg',
-    '/images/event3.jpg',
-    '/images/event4.jpg',
-    '/images/event1.jpg',
-    '/images/event2.jpg',
+    '/images/Gallery1.jpg',
+    '/images/Gallery2.jpg',
+    '/images/Gallery3.jpg',
+    '/images/Gallery4.jpg',
+    '/images/Gallery5.jpg',
+    '/images/Gallery6.jpg',
     // Duplicate images to create seamless loop
-    '/images/event1.jpg',
-    '/images/event2.jpg',
-    '/images/event3.jpg',
-    '/images/event4.jpg',
-    '/images/event1.jpg',
-    '/images/event2.jpg',
+    '/images/Gallery1.jpg',
+    '/images/Gallery2.jpg',
+    '/images/Gallery3.jpg',
+    '/images/Gallery4.jpg',
+    '/images/Gallery5.jpg',
+    '/images/Gallery6.jpg',
   ];
 
   useEffect(() => {

@@ -6,10 +6,8 @@ import { EMAILJS_CONFIG } from '../config/emailjs';
 
 export default function Contact() {
   const contactDetails = [
-    { label: 'Phone Number', value: '+91 123 456 7890' },
-    { label: 'Address', value: '123 Main Street' },
-    { label: 'City', value: 'Chennai' },
-    { label: 'Country', value: 'India' },
+    { label: 'Phone Number', value: '+91 97910 92232' },
+    { label: 'City', value: 'Chennai, India' }
   ];
 
   const [formData, setFormData] = useState({
@@ -129,7 +127,7 @@ export default function Contact() {
               {contactDetails.map((detail, index) => (
                 <div key={index}>
                   <p className="font-judson text-xl text-[#3C1908]">
-                    {detail.label}
+                    {detail.label}: {detail.value}
                   </p>
                 </div>
               ))}
@@ -137,7 +135,7 @@ export default function Contact() {
 
             <div className="relative w-full h-[800px]">
               <Image
-                src="/images/speaker.jpg"
+                src="/images/Gallery2.jpg"
                 alt="Contact"
                 fill
                 className="object-cover"

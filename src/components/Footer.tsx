@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Phone, Mail, MapPin } from 'lucide-react'; // Make sure to install lucide-react
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const navigation = [
@@ -11,16 +11,15 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { name: 'LinkedIn', url: '#' },
-    { name: 'Twitter', url: '#' },
-    { name: 'Instagram', url: '#' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/dr-vijayabanu-udayashankar-b7216224' },
+    { name: 'Instagram', url: 'https://www.instagram.com/dr.u.vijayabanu/' },
   ];
 
   const contactInfo = [
     { 
       icon: <Phone size={20} />, 
-      text: '+91 123 456 7890',
-      href: 'tel:+911234567890'
+      text: '+91 97910 92232',
+      href: 'tel:+919791092232'
     },
     { 
       icon: <Mail size={20} />, 
@@ -37,9 +36,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#FBC8AB] py-16">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid grid-cols-12 gap-8"> {/* Changed to 12 columns for more precise control */}
-          {/* Brand Section - Takes 4 columns with right margin */}
-          <div className="col-span-4 pr-24"> {/* Added right padding */}
+        <div className="grid grid-cols-12 gap-8">
+          <div className="col-span-4 pr-24">
             <Link 
               href="/" 
               className="font-sacramento text-4xl text-[#3C1908] hover:text-[#C85925] transition-colors"
@@ -51,8 +49,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Three columns wrapper - Takes 8 columns with closer spacing */}
-          <div className="col-span-8 grid grid-cols-3 gap-8"> {/* Reduced gap between these columns */}
+          <div className="col-span-8 grid grid-cols-3 gap-8"> 
             {/* Navigation */}
             <div className="flex flex-col">
               <h3 className="font-judson text-2xl text-[#3C1908] mb-6">Quick Links</h3>

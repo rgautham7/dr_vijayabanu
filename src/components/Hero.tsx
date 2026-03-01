@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-48 mt-48">
         <h1 className="font-sacramento text-8xl text-[#3C1908] mb-4">
-          Dr. Vijayabanu
+          Dr. Vijayabanu. U
         </h1>
         <div className="h-8" />
         <p className="font-judson text-2xl text-[#3C1908]">
@@ -44,7 +44,7 @@ export default function Hero() {
 
           <div className="absolute right-[270px] top-0 h-full flex items-center">
             <span className="font-ibm-plex text-sm tracking-[0.4em] writing-vertical text-[#3C1908] uppercase rotate-180">
-              Placeholder Adjective
+              Mindfulness
             </span>
           </div>
 
@@ -62,13 +62,10 @@ export default function Hero() {
 
           <div className="absolute top-1/2 -right-[300px] -translate-y-1/2 bg-[#FBC8AB]">
             <div className="relative">
-              {/* <div className="absolute right-full top-1/2 w-[50px] h-[1px] bg-[#C85925]" /> */}
               
               <div className="relative border border-[#C85925] p-8 w-[500px]">
                 <p className="font-sacramento text-[48px] leading-relaxed text-[#3C1908]">
-                  Quotes goes here
-                  <br />
-                  it should be of two lines. Need to check if it is working.
+                  Every human has the potential for self growth, the difference is how they understand their potential
                 </p>
               </div>
             </div>

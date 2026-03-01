@@ -22,13 +22,11 @@ export default function About() {
               ABOUT
             </h2>
             <div className="space-y-4">
-              <h3 className="font-judson text-[32px] text-[#3C1908] leading-tight">
-                All about yourself!
+              <h3 className="font-judson text-[28px] text-[#3C1908] leading-tight">
+                Doctorate in Psychology and Qualified Behaviour Analyst with expertise in psychometry, educational, and organizational psychology.
               </h3>
-              <p className="font-judson text-[32px] text-[#3C1908] leading-tight">
-                Everything the people wants
-                <br />
-                to know.
+              <p className="font-judson text-[28px] text-[#3C1908] leading-tight">
+                Positive Intelligence Coach, POSH trainer, and Career Consultant with 20 years of impactful training experience.
               </p>
             </div>
           </div>
