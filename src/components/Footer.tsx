@@ -3,11 +3,12 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const navigation = [
-    ['About', '/about'],
-    ['Services', '/services'],
-    ['Events', '/events'],
-    ['Testimonial', '/testimonial'],
-    ['Contact', '/contact'],
+    { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Services', href: '#services' },
+    { name: 'Events', href: '#events' },
+    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   const socialLinks = [
@@ -54,13 +55,13 @@ export default function Footer() {
             <div className="flex flex-col">
               <h3 className="font-judson text-2xl text-[#3C1908] mb-6">Quick Links</h3>
               <ul className="space-y-4">
-                {navigation.map(([title, url]) => (
-                  <li key={title}>
+                {navigation.map((item) => (
+                  <li key={item.name}>
                     <Link
-                      href={url}
+                      href={item.href}
                       className="font-judson text-lg text-[#3C1908] hover:text-[#C85925] transition-colors"
                     >
-                      {title}
+                      {item.name}
                     </Link>
                   </li>
                 ))}

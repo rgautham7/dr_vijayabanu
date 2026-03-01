@@ -6,7 +6,7 @@ export default function Events() {
       id: 1,
       imageUrl: '/images/img-event1.jpg',
       isLeft: true,
-      title: 'Nurturing Young Minds in a Digital Age',
+      title: 'Nurturing Young Minds in a Digital Age - Little Buds',
       description: 'Served as Chief Guest at Little Buds graduation, celebrating young learners’ confidence and joy. Shared insights on healthy screen habits, guiding parents toward balanced, holistic child development.'
     },
     {
@@ -20,7 +20,7 @@ export default function Events() {
       id: 3,
       imageUrl: '/images/img-event3.jpg',
       isLeft: true,
-      title: 'National Seminar on Occupational Stress Management',
+      title: 'National Seminar on Occupational Stress Management - \n SRM IST',
       description: 'Spoke on navigating dual identity for women leaders, addressing stereotypes, stigma, and assertive communication. Emphasized practical actions for sustainable work-life balance and stress management.'
     },
     {

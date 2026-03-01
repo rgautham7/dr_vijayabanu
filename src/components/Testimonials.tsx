@@ -18,18 +18,10 @@ export default function Testimonials() {
       quote: 'Curabitur id massa sed tellus efficitur dignissim. Integer quam augue, rhoncus eget iaculis vel, condimentum id ipsum. Duis nec bibendum leo.',
       isLeft: false,
     },
-    // {
-    //   id: 3,
-    //   imageUrl: '/images/testimonial3.png',
-    //   name: 'Third Author',
-    //   role: 'Writer & Educator',
-    //   quote: 'Nulla ultricies elementum libero, pharetra blandit erat iaculis ut. Etiam eu sodales turpis. Etiam suscipit elit id nibh facilisis.',
-    //   isLeft: true,
-    // },
   ];
 
   return (
-    <section id="testimonial" className="min-h-[160vh] bg-[#FBC8AB] py-20">
+    <section id="testimonials" className="min-h-[160vh] bg-[#FBC8AB] py-20">
       <div className="container mx-auto px-4 pb-12">
         <div className="text-center mb-24">
           <h2 className="font-judson text-5xl text-[#3C1908] mb-4">
