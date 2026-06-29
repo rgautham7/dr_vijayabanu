@@ -24,8 +24,8 @@ export default function Footer() {
     },
     { 
       icon: <Mail size={20} />, 
-      text: 'contact@example.com',
-      href: 'mailto:contact@example.com'
+      text: 'dimple0212@gmail.com',
+      href: 'mailto:dimple0212@gmail.com'
     },
     { 
       icon: <MapPin size={20} />, 

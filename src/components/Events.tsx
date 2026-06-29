@@ -1,4 +1,5 @@
 import EventCard from './EventCard';
+import FlowerDecoration from './FlowerDecoration';
 
 export default function Events() {
   const events = [
@@ -28,7 +29,7 @@ export default function Events() {
       imageUrl: '/images/img-event4.jpg',
       isLeft: false,
       title: 'Mental Well-Being in Healthcare Leadership',
-      description: 'Spoke at the Medicall Seminar on mental well-being for medical professionals and hospital administrators. Highlighted resilience, emotional health, and sustainable leadership in demanding healthcare environments.'
+      description: 'Spoke at the Medical Seminar on mental well-being for medical professionals and hospital administrators. Highlighted resilience, emotional health, and sustainable leadership in demanding healthcare environments.'
     },
   ];
 
@@ -77,6 +78,22 @@ export default function Events() {
                 />
               </div>
             ))}
+
+            <div className="absolute left-[940px] top-[200px]">
+                <FlowerDecoration />
+            </div>
+
+            <div className="absolute right-[940px] top-[700px]">
+                <FlowerDecoration />
+            </div>
+
+            <div className="absolute left-[940px] top-[1200px]">
+                <FlowerDecoration />
+            </div>
+
+            <div className="absolute right-[940px] top-[1700px]">
+                <FlowerDecoration />
+            </div>
           </div>
         </div>
       </div>

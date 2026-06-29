@@ -52,7 +52,7 @@ export default function Services() {
     },
     {
       title: 'Life coaching',
-      description: 'Guiding youngsters to unlock their potential and achieve personal by empowering their problem solving skills',
+      description: 'Guiding youngsters to unlock their potential and achieve personal growth by empowering their problem solving skills',
       imageUrl: '/images/life-coaching.avif',
     },
     {
